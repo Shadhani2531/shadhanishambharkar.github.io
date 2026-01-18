@@ -13,6 +13,11 @@ body {
 }
 
 /* NAVBAR */
+.logo img {
+    height: 42px;
+    width: auto;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
