@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
+/* BODY BACKGROUND */
 body {
     font-family: "Segoe UI", Arial, sans-serif;
-    background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
-    color: #1f2933;
+    background-color: #eef2ff; /* LIGHT BLUE BACKGROUND */
+    color: #1e293b;
     line-height: 1.7;
 }
 
@@ -17,11 +18,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 70px;
-    background: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(8px);
-    border-bottom: 1px solid #e5e7eb;
-    position: sticky;
-    top: 0;
+    background-color: #1e40af; /* DARK BLUE */
 }
 
 nav ul {
@@ -32,18 +29,18 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #1f2933;
+    color: white;
     font-weight: 500;
 }
 
 nav a:hover {
-    color: #2563eb;
+    text-decoration: underline;
 }
 
 .logo {
     font-size: 22px;
     font-weight: 600;
-    color: #2563eb;
+    color: #bfdbfe; /* LIGHT BLUE TEXT */
 }
 
 /* SECTIONS */
@@ -53,81 +50,85 @@ nav a:hover {
     margin: auto;
 }
 
-/* HOME */
+/* HOME SECTION */
 .home {
     text-align: center;
-    padding-top: 120px;
+    background: linear-gradient(135deg, #2563eb, #1e3a8a);
+    color: white;
+    padding: 140px 70px;
+    border-radius: 0 0 40px 40px;
 }
 
 .home h1 {
-    font-size: 46px;
+    font-size: 48px;
     margin-bottom: 12px;
 }
 
 .home h3 {
     font-weight: 500;
-    color: #475569;
+    color: #dbeafe;
     margin-bottom: 25px;
 }
 
 .home p {
     max-width: 750px;
     margin: auto;
-    font-size: 17px;
-    color: #334155;
+    font-size: 18px;
 }
 
 /* BUTTONS */
 .buttons {
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 .buttons a {
     display: inline-block;
     margin: 10px 12px;
-    padding: 12px 26px;
-    background: #2563eb;
-    color: white;
+    padding: 12px 28px;
+    background: white;
+    color: #1e40af;
     text-decoration: none;
-    border-radius: 8px;
-    font-weight: 500;
+    border-radius: 30px;
+    font-weight: 600;
     transition: all 0.3s ease;
 }
 
 .buttons a:hover {
-    background: #1e40af;
-    transform: translateY(-2px);
+    background: #dbeafe;
+    transform: translateY(-3px);
 }
 
-/* ABOUT */
+/* ABOUT SECTION */
 #about {
     background: white;
-    border-radius: 16px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
-    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+    margin-top: -60px;
+    padding: 80px 70px;
 }
 
 #about h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: #2563eb;
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #1e40af;
 }
 
 #about p {
     margin-bottom: 18px;
     font-size: 16.5px;
-    color: #374151;
+    color: #334155;
 }
 
 /* LINKS */
 #links {
     text-align: center;
+    margin-top: 60px;
 }
 
 #links h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #2563eb;
+    color: #1e40af;
 }
 
 .links-list {
@@ -142,8 +143,8 @@ nav a:hover {
 .links-list a {
     text-decoration: none;
     color: #2563eb;
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .links-list a:hover {
