@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -100,3 +101,157 @@ nav a:hover {
     text-decoration: none;
     color: #0077b6;
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY BACKGROUND */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #eef2ff; /* LIGHT BLUE BACKGROUND */
+    color: #1e293b;
+    line-height: 1.7;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    background-color: #1e40af; /* DARK BLUE */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+    color: #bfdbfe; /* LIGHT BLUE TEXT */
+}
+
+/* SECTIONS */
+.section {
+    padding: 90px 70px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* HOME SECTION */
+.home {
+    text-align: center;
+    background: linear-gradient(135deg, #2563eb, #1e3a8a);
+    color: white;
+    padding: 140px 70px;
+    border-radius: 0 0 40px 40px;
+}
+
+.home h1 {
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.home h3 {
+    font-weight: 500;
+    color: #dbeafe;
+    margin-bottom: 25px;
+}
+
+.home p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 18px;
+}
+
+/* BUTTONS */
+.buttons {
+    margin-top: 40px;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 10px 12px;
+    padding: 12px 28px;
+    background: white;
+    color: #1e40af;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.buttons a:hover {
+    background: #dbeafe;
+    transform: translateY(-3px);
+}
+
+/* ABOUT SECTION */
+#about {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+    margin-top: -60px;
+    padding: 80px 70px;
+}
+
+#about h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #1e40af;
+}
+
+#about p {
+    margin-bottom: 18px;
+    font-size: 16.5px;
+    color: #334155;
+}
+
+/* LINKS */
+#links {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#links h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1e40af;
+}
+
+.links-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.links-list li {
+    margin: 14px 0;
+}
+
+.links-list a {
+    text-decoration: none;
+    color: #2563eb;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.links-list a:hover {
+    text-decoration: underline;
+}
+>>>>>>> 5273281708185a2b5285a07be752b8d88fb19f55
