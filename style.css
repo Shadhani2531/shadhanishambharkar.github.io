@@ -13,10 +13,6 @@ body {
 }
 
 /* NAVBAR */
-.logo img {
-    height: 42px;
-    width: auto;
-}
 
 nav {
     display: flex;
@@ -43,9 +39,11 @@ nav a:hover {
     color: #0077b6;
 }
 
-.logo {
-    font-size: 22px;
+.logo img {
+    height: 42px;
+    width: auto;
 }
+
 
 /* SECTIONS */
 .section {
